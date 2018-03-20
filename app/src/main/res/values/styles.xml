@@ -1,0 +1,179 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/colorText</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_left</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_left</item>
+        <item name="actionOverflowButtonStyle">@style/MenuOverFlow</item>
+        <item name="actionModeShareDrawable">@drawable/ic_action_share</item>
+    </style>
+
+    <style name="MenuOverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/dots_vertical</item>
+    </style>
+
+    <style name="details_fragment_layout">
+        <item name="android:layout_marginEnd">@dimen/details_relative_margin_right</item>
+        <item name="android:layout_marginStart">@dimen/details_relative_margin_left</item>
+        <item name="android:paddingBottom">@dimen/details_relative_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/details_relative_padding_top</item>
+    </style>
+
+    <style name="details_linear_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/movie_info_margin_left</item>
+        <item name="android:layout_toEndOf">@id/poster</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="image_details_fragment">
+        <item name="android:layout_width">@dimen/poster_width</item>
+        <item name="android:layout_height">@dimen/poster_height</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="details_fragment_title_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_fragment_title_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_info_contents_margin_bottom</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="details_fragment_release_date_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_fragment_release_date_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_info_contents_margin_bottom</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="details_fragment_vote_average_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_fragment_vote_average_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_info_contents_margin_bottom</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="details_fragment_overview_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/poster</item>
+        <item name="android:layout_marginTop">@dimen/movie_info_overview_header_margin_top</item>
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_fragment_overview_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/overview_header</item>
+        <item name="android:text">@string/overview_not_available</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="retry_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/no_internet_text_margin</item>
+        <item name="android:layout_marginTop">@dimen/no_internet_text_margin</item>
+        <item name="android:paddingEnd">@dimen/no_connection_button_padding</item>
+        <item name="android:paddingStart">@dimen/no_connection_button_padding</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/no_connection_hint</item>
+    </style>
+
+    <style name="no_connection_hint_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/no_internet_text_margin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/no_connection_hint</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="no_connection_title_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_heading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="no_connection_iv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/no_connection_image_margin</item>
+    </style>
+
+    <style name="movie_item_fragment_poster">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/poster_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
+    <style name="movie_item_fragment_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/poster</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="card_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/card_view_margin</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextSubHeader">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="heart_image_button_details_fragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@id/poster</item>
+        <item name="android:layout_alignEnd">@id/poster</item>
+        <item name="android:layout_marginEnd">@dimen/fav_button_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fav_button_margin</item>
+        <item name="android:background">@drawable/ic_action_favorite_border</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

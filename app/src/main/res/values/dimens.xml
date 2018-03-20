@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="text_size_heading">32sp</dimen>
+    <dimen name="text_size_subheading">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="recycler_view_column_width">180dp</dimen>
+    <dimen name="poster_height">256dp</dimen>
+    <dimen name="poster_width">175dp</dimen>
+    <dimen name="card_view_corner_radius">4dp</dimen>
+    <dimen name="card_view_margin">5dp</dimen>
+    <dimen name="no_internet_text_margin">20dp</dimen>
+    <dimen name="details_relative_margin_left">15dp</dimen>
+    <dimen name="details_relative_margin_right">15dp</dimen>
+    <dimen name="details_relative_padding_bottom">15dp</dimen>
+    <dimen name="details_relative_padding_top">15dp</dimen>
+    <dimen name="movie_info_margin_left">15dp</dimen>
+    <dimen name="movie_info_contents_margin_bottom">10dp</dimen>
+    <dimen name="movie_info_overview_header_margin_top">25dp</dimen>
+    <dimen name="no_connection_hint">22sp</dimen>
+    <dimen name="no_connection_image_margin">32dp</dimen>
+    <dimen name="no_connection_button_padding">50dp</dimen>
+
+    <dimen name="border_width">3dp</dimen>
+    <dimen name="border_radius">3dp</dimen>
+    <dimen name="border_padding">6dp</dimen>
+
+    <dimen name="video_item_padding_top">10dp</dimen>
+    <dimen name="video_item_image_drawable_padding">5dp</dimen>
+
+    <dimen name="divider_margin_top">15dp</dimen>
+    <dimen name="divider_margin_bottom">15dp</dimen>
+
+    <dimen name="fav_button_margin">4dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/card_view"
+    card_view:cardCornerRadius="@dimen/card_view_corner_radius">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/poster"
+            style="@style/movie_item_fragment_poster"
+            android:contentDescription="@string/movie_poster_content_description"/>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/movie_item_fragment_title" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
