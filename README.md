@@ -1,4 +1,5 @@
 # Popular Movies (Stage 2)
+![Cover](/assets/smartmockups_k7pojo0q.jpg)
 
 This is Popular Movies Stage 2 of Udacity's Android Developer Nanodegree.
 The purpose of this project was to built an app that helps users discover popular and top rated movies on the web.
@@ -30,3 +31,28 @@ I have used info by this article [Best Way to Store your Api Keys for your Andro
 This project uses the following libraries:
 
 [Glide](https://github.com/bumptech/glide)
+
+## Screenshots
+<table style="margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073091.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073114.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073117.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073124.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073134.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073159.png" width="125" height="222" /></td>  
+</tr>
+<tr>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073168.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073175.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073187.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073203.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073244.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_Popular_Movies_Stage2/blob/master/assets/Screenshot_1584073259.png" width="125" height="222" /></td>  
+</tr>
+</tbody>
+</table>
+
+
+
